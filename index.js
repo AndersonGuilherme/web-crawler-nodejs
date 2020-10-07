@@ -7,7 +7,7 @@ const logger = require('morgan');
 
 app.set('views', path.join(__dirname, 'src/views'));
 app.set('view engine', 'hbs');
-app.set('port', 3000);
+app.set('port', 3333);
 app.use(logger('dev'));
 app.use( bodyParser.json() );
 app.use( bodyParser.urlencoded({extended: false}) );
